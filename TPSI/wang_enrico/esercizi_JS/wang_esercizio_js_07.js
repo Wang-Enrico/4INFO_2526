@@ -80,6 +80,8 @@ function cerca() {
 
 function aggiorna(celle){
     console.log("ciao");
+
+    
     celle[0].innerText = document.getElementById("tdsurname").value;
     celle[1].innerText = document.getElementById("tdname").value;
     celle[2].innerText = document.getElementById("tdaddress").value;

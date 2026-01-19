@@ -1,2 +1,0 @@
-
-alert("Hello JS World!!");

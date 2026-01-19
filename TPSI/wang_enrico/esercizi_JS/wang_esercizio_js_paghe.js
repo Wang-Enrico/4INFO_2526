@@ -39,7 +39,7 @@ function addUtente(){
         tdCogonome.innerText = getElement("id","cognome","si");
         tdNome.innerText = getElement("id","nome","si");
         tdMese.innerText = getElement("id","mese","si");
-        tdImporto.innerText = getElement("id","importo","si");
+       tdImporto.innerText = getElement("id","importo","si");
         
         addClass(tdImporto, "importo");
 
