@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Game Epic Fullscreen</title>
+<link rel="stylesheet" href="wang.css">
+</head>
+<body>
+
+<!-- VIDEO SFONDO -->
+<video id="bg-video" autoplay loop muted>
+    <source src="mancu_inazzato.mp4" type="video/webm">
+</video>
+
+<div class="quiz-container">
+    <div class="progress-bar"><div class="progress"></div></div>
+    <div class="question"></div>
+    <img class="question-image" src="" style="display:none;">
+    <video class="question-video" controls></video>
+    <div class="answers"></div>
+    <button class="next-btn" style="display:none;">Prossima</button>
+    <div class="score-container" style="display:none;"></div>
+</div>
+
+<audio id="correct-sound" src="https://www.soundjay.com/buttons/sounds/button-4.mp3"></audio>
+<audio id="wrong-sound" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+
+<script src="wang.js"></script>
+</body>
+</html>
