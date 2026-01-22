@@ -24,8 +24,8 @@ const quizData = [
     img: "https://cdn.pixabay.com/photo/2015/12/08/00/26/memory-1081860_1280.jpg"
   },
   {
-    q: "Al prof. Mancuso cosa gli piace?",
-    a: ["I terroristi", "Nicolas", "Linux"],
+    q: "Chi è il miglior prof di informatica?",
+    a: ["Arruzza", "Mancuso", "Fazzone"],
     correct: 2,
     video: "mancu_inazzato.mp4"
   }
