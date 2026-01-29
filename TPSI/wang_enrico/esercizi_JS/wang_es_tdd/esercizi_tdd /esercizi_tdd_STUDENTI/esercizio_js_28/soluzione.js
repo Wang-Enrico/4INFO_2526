@@ -1,4 +1,13 @@
 export const upper_case = (str) => {
-    //INSERISCI QUI IL TUO CODICE
-}
-
+    let result = "";
+    const lowercase = "abcdefghijklmnopqrstuvwxyz";
+    const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];
+        let index = lowercase.indexOf(char);
+        result += index !== -1 ? uppercase[index] : char;
+    }
+    
+    return result;
+};
